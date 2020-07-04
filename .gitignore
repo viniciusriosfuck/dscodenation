@@ -1,0 +1,7 @@
+.idea/
+*.ipynb
+build/
+dist/
+hello.egg-info/
+venv/
+AceleraDevDS.egg-info/
