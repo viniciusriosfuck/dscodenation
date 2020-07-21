@@ -4,7 +4,7 @@ dist/
 hello.egg-info/
 venv/
 AceleraDevDS.egg-info/
-**/*stdout.txt
+**/stdout.txt
 **/*.xml
 **/*.test_main.py
 codenation.exe
