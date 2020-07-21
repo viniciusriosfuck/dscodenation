@@ -1,23 +1,21 @@
-# Project name
-Description
+# Data Science
+This repo contains some studies about Data Science.
+
+It's mainly focused on the challenges within the AceleraDev Codenation 2020.
+
 
 ## Getting Started
 
 ### Installation
 
+Each challenge is separated in a folder with the correspondent `requirements.txt`
+You could install some virtual env and run the codes.
 ```bash
-$ python setup.py install # or
-$ make install
+$ pip install -r requirements.txt
 ```
-
-## Test running 
-
 
 ## Contribution
 Feel free to give ideas, make corrections and use this repo. 
 
 ## License
 MIT
-
-
-link: [Choosealicense](choosealicense.com)
