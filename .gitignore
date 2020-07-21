@@ -9,7 +9,7 @@ AceleraDevDS.egg-info/
 **/*.test_main.py
 codenation.exe
 *.pyc
-HTRU2.arff
+data-science-1/HTRU_2.arff
 Makefile
 **/.ipynb_checkpoints/
 Data-Science-Online/
