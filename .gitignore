@@ -4,12 +4,12 @@ dist/
 hello.egg-info/
 venv/
 AceleraDevDS.egg-info/
-*stdout.txt
-*.xml
-*.test_main.py
+**/*stdout.txt
+**/*.xml
+**/*.test_main.py
 codenation.exe
 *.pyc
 HTRU2.arff
 Makefile
-*.ipynb_checkpoints/
+**/*.ipynb_checkpoints/
 Data-Science-Online/
