@@ -16,6 +16,3 @@ $ pip install -r requirements.txt
 
 ## Contribution
 Feel free to give ideas, make corrections and use this repo. 
-
-## License
-MIT
