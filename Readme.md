@@ -23,13 +23,34 @@ It's mainly focused on the challenges within the AceleraDev Codenation 2020.
 * [Semana 6 - Fifa 2019 - Dimensionality Reduction (PCA, RFE)](https://r.codenation.dev/u/as-h-pnMg)
 * [Semana 7 - Countries of the world - Feature Engineering](https://r.codenation.dev/u/oxkKI_7GR)
 
+<!--
+JSON
+https://r.codenation.dev/u/ANCbH2GGR
+https://www.codenation.dev/code-review/#/coestatistica-1/ANCbH2GGR
+2
+https://www.codenation.dev/code-review/#/data-science-0/g9c317WMg
+4
+https://www.codenation.dev/code-review/#/data-science-1/TEIUowMMg
+5
+https://www.codenation.dev/code-review/#/data-science-2/HEGdGOnMg
+6
+https://www.codenation.dev/code-review/#/data-science-3/as-h-pnMg
+7
+https://www.codenation.dev/code-review/#/data-science-4/oxkKI_7GR
+-->
+
 ## Others
 *  [Some useful links for Data Science](https://github.com/viniciusriosfuck/dscodenation/blob/master/UsefulLinksDS.csv)
 *  [Some notebooks with some ongoing studies](https://github.com/viniciusriosfuck/dscodenation/tree/master/GoogleColab)
 
 ### Highlights
+* [Open Source Society University - DS](https://github.com/ossu/data-science)
+
+### "Shameless self promotion" - SQ
 * [Statistics](https://github.com/viniciusriosfuck/dscodenation/blob/master/GoogleColab/AceleraDevEstatistica.ipynb)
 * [Linear Regression](https://github.com/viniciusriosfuck/dscodenation/blob/master/GoogleColab/LinearRegression.ipynb)
+
+
 
 ## Getting Started
 
