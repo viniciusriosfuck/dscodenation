@@ -4,7 +4,8 @@ This repo contains some studies about Data Science.
 It's mainly focused on the challenges within the AceleraDev Codenation 2020.
 
 
-## Jupyter Notebooks
+## AceleraDev Codenation Data Science
+### Jupyter Notebooks
 
 * [Semana 2 - Black Friday - Pandas](https://github.com/viniciusriosfuck/dscodenation/blob/master/data-science-0/main_anotacoes.ipynb)
  * [Semana 2 - Black Friday - Pandas - Short](https://github.com/viniciusriosfuck/dscodenation/blob/master/data-science-0/main.ipynb)
@@ -14,13 +15,16 @@ It's mainly focused on the challenges within the AceleraDev Codenation 2020.
 * [Semana 6 - Fifa 2019 - Dimensionality Reduction (PCA, RFE)](https://github.com/viniciusriosfuck/dscodenation/blob/master/data-science-3/main.ipynb)
 * [Semana 7 - Countries of the world - Feature Engineering](https://github.com/viniciusriosfuck/dscodenation/blob/master/data-science-4/main.ipynb)
 
-## Code Reviews
+### Code Reviews
 * [Semana 2 - Black Friday - Pandas](https://r.codenation.dev/u/g9c317WMg)
 * [Semana 4 - Pulsar Stars - Probability Distributions](https://r.codenation.dev/u/TEIUowMMg)
 * [Semana 5 - Rio 2016 - Probability Distributions](https://r.codenation.dev/u/HEGdGOnMg)
 * [Semana 6 - Fifa 2019 - Dimensionality Reduction (PCA, RFE)](https://r.codenation.dev/u/as-h-pnMg)
 * [Semana 7 - Countries of the world - Feature Engineering](https://r.codenation.dev/u/oxkKI_7GR)
 
+## Others
+*  [Some useful links for Data Science](https://github.com/viniciusriosfuck/dscodenation/blob/master/UsefulLinksDS.csv)
+*  [Some notebooks with studies](https://github.com/viniciusriosfuck/dscodenation/tree/master/GoogleColab)
 
 ## Getting Started
 
