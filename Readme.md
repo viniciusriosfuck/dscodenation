@@ -1,5 +1,5 @@
 # Data Science
-This repo contains some studies about Data Science.
+This repo contains some ongoing studies about Data Science.
 
 It's mainly focused on the challenges within the AceleraDev Codenation 2020.
 
@@ -7,11 +7,12 @@ It's mainly focused on the challenges within the AceleraDev Codenation 2020.
 ## AceleraDev Codenation Data Science
 ### Jupyter Notebooks
 
-* [Semana 2 - Black Friday - Pandas](https://github.com/viniciusriosfuck/dscodenation/blob/master/data-science-0/main_anotacoes.ipynb)
- * [Semana 2 - Black Friday - Pandas - Short](https://github.com/viniciusriosfuck/dscodenation/blob/master/data-science-0/main.ipynb)
+* [Semana 2 - Black Friday - Pandas](https://github.com/viniciusriosfuck/dscodenation/blob/master/data-science-0/main.ipynb)
+ * [Semana 2 - Black Friday - Pandas - Long](https://github.com/viniciusriosfuck/dscodenation/blob/master/data-science-0/main_anotacoes.ipynb)
 * [Semana 3 - Credit Consumers - Json](https://github.com/viniciusriosfuck/dscodenation/blob/master/coestatistica-1/semana3_desafio.ipynb)
 * [Semana 4 - Pulsar Stars - Probability Distributions](https://github.com/viniciusriosfuck/dscodenation/blob/master/data-science-1/main.ipynb)
 * [Semana 5 - Rio 2016 - Probability Distributions](https://github.com/viniciusriosfuck/dscodenation/blob/master/data-science-2/main.ipynb)
+ *  [Semana 5 - Rio 2016 - Probability Distributions - Visualization](https://github.com/viniciusriosfuck/dscodenation/blob/master/GoogleColab/Rio2016.ipynb)
 * [Semana 6 - Fifa 2019 - Dimensionality Reduction (PCA, RFE)](https://github.com/viniciusriosfuck/dscodenation/blob/master/data-science-3/main.ipynb)
 * [Semana 7 - Countries of the world - Feature Engineering](https://github.com/viniciusriosfuck/dscodenation/blob/master/data-science-4/main.ipynb)
 
@@ -24,7 +25,11 @@ It's mainly focused on the challenges within the AceleraDev Codenation 2020.
 
 ## Others
 *  [Some useful links for Data Science](https://github.com/viniciusriosfuck/dscodenation/blob/master/UsefulLinksDS.csv)
-*  [Some notebooks with studies](https://github.com/viniciusriosfuck/dscodenation/tree/master/GoogleColab)
+*  [Some notebooks with some ongoing studies](https://github.com/viniciusriosfuck/dscodenation/tree/master/GoogleColab)
+
+### Highlights
+* [Statistics](https://github.com/viniciusriosfuck/dscodenation/blob/master/GoogleColab/AceleraDevEstatistica.ipynb)
+* [Linear Regression](https://github.com/viniciusriosfuck/dscodenation/blob/master/GoogleColab/LinearRegression.ipynb)
 
 ## Getting Started
 
