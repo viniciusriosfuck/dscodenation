@@ -11,5 +11,5 @@ codenation.exe
 *.pyc
 HTRU2.arff
 Makefile
-**/*.ipynb_checkpoints/
+**/.ipynb_checkpoints/
 Data-Science-Online/
