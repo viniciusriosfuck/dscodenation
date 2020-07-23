@@ -18,6 +18,7 @@ jupyter==1.0.0
 jupyter-client==5.2.4
 jupyter-console==6.0.0
 jupyter-core==4.4.0
+kaleido==0.0.1
 kiwisolver==1.1.0
 MarkupSafe==1.1.1
 matplotlib==3.1.0
@@ -34,9 +35,11 @@ parso==0.4.0
 patsy==0.5.1
 pexpect==4.7.0
 pickleshare==0.7.5
+plotly==4.9.0
 pluggy==0.12.0
 prometheus-client==0.6.0
 prompt-toolkit==2.0.9
+psutil==5.7.2
 ptyprocess==0.6.0
 py==1.8.0
 Pygments==2.4.2
