@@ -12,4 +12,8 @@ codenation.exe
 data-science-1/HTRU_2.arff
 Makefile
 **/.ipynb_checkpoints/
-Data-Science-Online/
+hello/
+clean_code_logging/
+**/*.py
+**/*.DS_Store
+
