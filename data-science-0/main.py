@@ -11,14 +11,15 @@
 
 # ## _Set up_ da análise
 
-# In[ ]:
+# In[1]:
 
 
 import pandas as pd
 import numpy as np
+from sklearn.preprocessing import MinMaxScaler, StandardScaler
 
 
-# In[ ]:
+# In[2]:
 
 
 df = pd.read_csv("black_friday.csv")
@@ -36,114 +37,215 @@ df = pd.read_csv("black_friday.csv")
 # 
 # Quantas observações e quantas colunas há no dataset? Responda no formato de uma tuple `(n_observacoes, n_colunas)`.
 
-# In[ ]:
+# In[3]:
 
 
 def q1():
     return df.shape
 
 
+# In[4]:
+
+
+q1()
+
+
 # ## Questão 2
 # 
 # Há quantas mulheres com idade entre 26 e 35 anos no dataset? Responda como um único escalar.
 
-# In[ ]:
+# In[5]:
 
 
 def q2():
-    return df[(df.Gender == 'F') & (df.Age == '26-35')].count().User_ID.item()
+    return len(
+        df[
+            (df['Gender'] == 'F')
+            & (df['Age'] == '26-35')
+        ]
+    )
+
+
+# In[6]:
+
+
+q2()
 
 
 # ## Questão 3
 # 
 # Quantos usuários únicos há no dataset? Responda como um único escalar.
 
-# In[ ]:
+# In[7]:
 
 
 def q3():
-    return df.nunique().User_ID.item()
+    return (
+        df['User_ID']
+        .nunique()
+    )
+
+
+# In[8]:
+
+
+q3()
 
 
 # ## Questão 4
 # 
 # Quantos tipos de dados diferentes existem no dataset? Responda como um único escalar.
 
-# In[ ]:
+# In[9]:
 
 
 def q4():
-    return df.dtypes.nunique()
+    return (
+        df
+        .dtypes
+        .nunique()
+    )
+
+
+# In[10]:
+
+
+q4()
 
 
 # ## Questão 5
 # 
 # Qual porcentagem dos registros possui ao menos um valor null (`None`, `ǸaN` etc)? Responda como um único escalar entre 0 e 1.
 
-# In[ ]:
+# In[23]:
 
 
 def q5():
-    lines_na = df.isna().sum(axis=1) > 0
-    return lines_na.mean().item()
+
+    return float(
+        (
+            df
+            .isna()
+            .sum(axis=1)
+            > 0
+        )
+        .mean()
+    )
+
+
+# In[24]:
+
+
+q5()
 
 
 # ## Questão 6
 # 
 # Quantos valores null existem na variável (coluna) com o maior número de null? Responda como um único escalar.
 
-# In[ ]:
+# In[13]:
 
 
 def q6():
-    return df.isna().sum().max().item()
+    return int(
+        df
+        .isna()
+        .sum()
+        .max()
+    )
+
+
+# In[14]:
+
+
+q6()
 
 
 # ## Questão 7
 # 
 # Qual o valor mais frequente (sem contar nulls) em `Product_Category_3`? Responda como um único escalar.
 
-# In[ ]:
+# In[15]:
 
 
 def q7():
-    return df.Product_Category_3.mode().values[0]
+    return float(
+        df['Product_Category_3']
+        .mode()
+    )
+
+
+# In[16]:
+
+
+q7()
 
 
 # ## Questão 8
 # 
 # Qual a nova média da variável (coluna) `Purchase` após sua normalização? Responda como um único escalar.
 
-# In[ ]:
+# In[17]:
 
 
 def q8():
-    x = df.Purchase.to_numpy()
-    x_mod = (x - x.min()) / (x.max() - x.min())
-    return x_mod.mean().item()
+    scaler = MinMaxScaler()
+    
+    return float(
+        scaler.fit_transform(df[['Purchase']])
+        .mean()
+    )
+
+
+# In[18]:
+
+
+q8()
 
 
 # ## Questão 9
 # 
 # Quantas ocorrências entre -1 e 1 inclusive existem da variável `Purchase` após sua padronização? Responda como um único escalar.
 
-# In[ ]:
+# In[19]:
 
 
 def q9():
-    x = df.Purchase.to_numpy()
-    z = (x - x.mean()) / x.std()
-    v_bool = (z >= -1.0) & (z <= 1.0)
-    return v_bool.sum().item()
+    scaler = StandardScaler()
+    
+    nr_lt_1std = int(
+        pd.Series(
+        scaler.fit_transform(df[['Purchase']])[:,0])
+        .between(-1.0, 1.0)
+        .sum()
+    )
+   
+    return nr_lt_1std
+
+
+# In[20]:
+
+
+q9()
 
 
 # ## Questão 10
 # 
 # Podemos afirmar que se uma observação é null em `Product_Category_2` ela também o é em `Product_Category_3`? Responda com um bool (`True`, `False`).
 
-# In[ ]:
+# In[21]:
 
 
 def q10():
-    return True if df.Product_Category_3[df.Product_Category_2.isna()].isna().mean() == 1.0 else False
+    return (
+        df['Product_Category_3']
+        .loc[df['Product_Category_2'].isnull()]
+        .isnull().all() == True
+    )
+
+
+# In[22]:
+
+
+q10()
 
