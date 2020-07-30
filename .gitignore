@@ -6,7 +6,7 @@ venv/
 AceleraDevDS.egg-info/
 **/stdout.txt
 **/*.xml
-**/*.test_main.py
+*.py
 codenation.exe
 *.pyc
 data-science-1/HTRU_2.arff
@@ -14,6 +14,6 @@ Makefile
 **/.ipynb_checkpoints/
 hello/
 clean_code_logging/
-**/*.py
 **/*.DS_Store
+Data-Science-Online/
 
