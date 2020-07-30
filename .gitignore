@@ -6,9 +6,9 @@ venv/
 AceleraDevDS.egg-info/
 **/stdout.txt
 **/*.xml
-*.py
+**/*.py
 codenation.exe
-*.pyc
+**/*.pyc
 data-science-1/HTRU_2.arff
 Makefile
 **/.ipynb_checkpoints/
